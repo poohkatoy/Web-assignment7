@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Press+Start+2P&family=Roboto&family=Roboto+Condensed&family=Ubuntu+Condensed&display=swap');
+
+body{
+    background-color: #db67b0;
+    margin: 0;
+    padding: 30px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    text-align: center;
+}
+
+fieldset {
+    border-color: white;
+    border-radius: 15px;
+}
+
+legend{
+    font-size: 25px;
+    color: white;
+    text-shadow: 5px 5px 1px darkcyan;
+    margin-bottom: 15px;
+}
+
+#numbox {
+    border:0;
+    background-color: white;
+    color: darkslategrey;
+    margin: 10px auto;
+    text-align: center;
+    border: 3px solid darkslategrey;
+    padding: 5px 7px;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+#color{
+    border:0;
+    background-color: white;
+    color: darkcyan;
+    margin: 10px auto;
+    text-align: center;
+    border: 3px solid darkcyan;
+    padding: 5px 7px;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: darkslategray;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px darkcyan;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 8px;
+}
+
+button:hover{
+    background-color: darkcyan;
+    box-shadow: 0 9px darkslategray;
+    color: white;
+}
+
+button:active {
+    background-color: darkslategray;
+    box-shadow: 0 5px darkcyan;
+    transform: translateY(4px);
+}
+
+#timerClock{
+    border:0;
+    background-color: white;
+    color: mediumvioletred;
+    margin: 8px 650px;
+    padding: 10px 10px;
+    text-align: center;
+    border: 3px solid white;
+    outline: none;
+    border-radius: 10px;
+}
+
+#clock{
+    margin-top:10px;
+}
+
+#game-container {
+	margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #f4d0e7;
+    border: 3px solid mediumvioletred;
+    border-radius: 10px;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.red{
+    background-color: red; 
+    border: 2px solid white;
+}
+.blue{
+    background-color: blue; 
+    border: 2px solid white;
+}
+
+.green{
+    background-color: green; 
+    border: 2px solid white;
+}
